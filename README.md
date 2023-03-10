@@ -13,10 +13,12 @@ Estrutura deste template foi feita pensando tanto em 🖥desktop e 📱mobile, e
 Imagens do template 👇🏻
   
   🖥 Desktop:
+  <div align="center">
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744796536999996/image.png" />
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797157765150/image.png" />
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797493297262/image.png" />
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797820457000/image.png" />
+   </div>
     
   📱 Mobile:
    <div align="center">
