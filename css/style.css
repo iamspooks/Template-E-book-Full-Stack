@@ -171,26 +171,26 @@ section.arrow{
 }
 
 .arrow__wraper{
-    position: relative; /* faz o container um elemento de posicionamento para que a linha possa ser posicionada em relação a ele */
-    display: inline-block; /* faz o container ocupar apenas o espaço necessário */
+    position: relative; 
+    display: inline-block; 
 }
 
 .arrow__line{
-    position: absolute; /* posiciona a linha em relação ao container */
-    bottom: 20px; /* posiciona a linha no final do container */
-    left: 45px; /* alinha a linha à esquerda do container */
-    width: 1000%; /* define a largura da linha como 100% do container */
-    height: 1px; /* define a altura da linha como 1 pixel */
-    background-color: #fff; /* define a cor da linha como branco */
+    position: absolute; 
+    bottom: 20px; 
+    left: 45px; 
+    width: 1000%; 
+    height: 1px; 
+    background-color: #fff; 
 }
 
 .arrow__line2{
-    position: absolute; /* posiciona a linha em relação ao container */
-    bottom: 20px; /* posiciona a linha no final do container */
-    right: 45px; /* alinha a linha à esquerda do container */
-    width: 1000%; /* define a largura da linha como 100% do container */
-    height: 1px; /* define a altura da linha como 1 pixel */
-    background-color: #fff; /* define a cor da linha como branco */
+    position: absolute; 
+    bottom: 20px;
+    right: 45px; 
+    width: 1000%; 
+    height: 1px; 
+    background-color: #fff; 
 }
 
 .arrow__single i{
@@ -202,33 +202,6 @@ section.arrow{
 /******************************************************************/
 
 /* Descrição */
-
-/* section.descricao__ebook{
-    padding: 30px 0;
-    text-align: center;
-}
-
-section.descricao__ebook > .container{
-    max-width: 1280px;
-    border-radius: 100px;
-    background-color: white;
-    padding: 50px 0;
-}
-
-section.descricao__ebook h2{
-    font-size: 33px;
-    font-weight: bold;
-}
-
-section.descricao__ebook p{
-    max-width: 680px;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-weight: lighter;
-    display: inline-block;
-} */
-
 section.descricao__ebook{
     padding: 30px 0;
 }
@@ -336,8 +309,8 @@ section.descricao__img > .container{
 }
 
 .descricao__img__single img{
-    width: 60px; /* largura fixa da imagem */
-    margin: 0 50px; /* espaçamento entre as imagens */
+    width: 60px;
+    margin: 0 50px;
     float: left;
 }
 
