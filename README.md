@@ -19,7 +19,9 @@ Imagens do template 👇🏻
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797820457000/image.png" />
     
   📱 Mobile:
-    <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833264107520/image.png" />
-    <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833582862456/image.png" />
-    <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833834516480/image.png" />
-    <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745834048442488/image.png" />
+   <div align="center">
+      <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833264107520/image.png" />
+      <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833582862456/image.png" />
+      <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745833834516480/image.png" />
+      <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083745834048442488/image.png" />
+   </div>
