@@ -22,6 +22,8 @@ Imagens do template 👇🏻
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797157765150/image.png" />
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797493297262/image.png" />
     <img src="https://cdn.discordapp.com/attachments/799033637789761556/1083744797820457000/image.png" />
+      <br />
+      <br />
    </div>
     
   📱 Mobile:
