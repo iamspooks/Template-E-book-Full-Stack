@@ -1,4 +1,4 @@
-# template E-book Full Stack
+# Template E-book Full Stack
 
 Olá, este template é meramente ilustrativo, nada que está nele existe. apenas para fins de produção de desenvolvimento!!
 
