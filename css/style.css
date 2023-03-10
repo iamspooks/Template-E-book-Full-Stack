@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+html,body{ height: 100%; background-color: rgb(230, 230, 230); }
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.clear{ clear: both; }
+
+/* header */
+header{
+    padding: 30px 0;
+    min-height: 450px;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.logo{
+    width: 132px;
+    height: 20px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    background-image: url('../assets/logo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* desktop */
+nav.menu__desktop{
+    z-index: 2;
+    position: relative;
+    float: right;
+}
+
+nav.menu__desktop ul{
+    list-style-type: none;
+}
+
+nav.menu__desktop li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav.menu__desktop a{
+    color: white;
+    text-decoration: none;
+}
+
+nav.menu__desktop i{
+    color: white;
+    margin: 0px 5px;
+}
+
+/* mobile */
+nav.menu__mobile{
+    display: none;
+    float: right;
+}
+
+nav.menu__mobile ul{
+    display: none;
+    background-color: rgb(26 24 33);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+nav.menu__mobile h3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    cursor: pointer;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.btn__close__menu{
+    display: none;
+  }
+
+nav.menu__mobile li{
+    padding: 10px 0;
+    
+}
+
+nav.menu__mobile a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 0 20px;
+    border-bottom: 1px solid rgb(39, 36, 49);
+}
+
+nav.menu__mobile i{
+    color: white;
+    margin: 0px 5px;
+}
+
+/******************************************************************/
+
+/* destaque header */
+.bg__newsletter{
+
+    padding: 110px 0;
+}
+
+.bg__newsletter h2{
+    color: white;
+    font-size: 47px;
+    font-weight: normal;
+}
+
+.bg__newsletter p{
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.bg__newsletter form{
+    margin-top: 30px;
+}
+
+.bg__newsletter input[type=email]{
+    border: 0;
+    outline: 0;
+    width: 237px;
+    height: 43px;
+    padding-left: 10px;
+    border-radius: 100px;
+    background-color: white;
+    display: inline-block;
+}
+
+.bg__newsletter input[type=submit]{
+    border: 0;
+    width: 150px;
+    height: 33px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 100px;
+    background-color: grey;
+    margin-left: 15px;
+}
+/******************************************************************/
+
+/* arrow */
+section.arrow{
+    z-index: 2;
+    position: relative;
+    padding: 20px 2%;
+    text-align: center;
+    background-color: rgb(26 24 33);
+}
+
+.arrow__wraper{
+    position: relative; /* faz o container um elemento de posicionamento para que a linha possa ser posicionada em relação a ele */
+    display: inline-block; /* faz o container ocupar apenas o espaço necessário */
+}
+
+.arrow__line{
+    position: absolute; /* posiciona a linha em relação ao container */
+    bottom: 20px; /* posiciona a linha no final do container */
+    left: 45px; /* alinha a linha à esquerda do container */
+    width: 1000%; /* define a largura da linha como 100% do container */
+    height: 1px; /* define a altura da linha como 1 pixel */
+    background-color: #fff; /* define a cor da linha como branco */
+}
+
+.arrow__line2{
+    position: absolute; /* posiciona a linha em relação ao container */
+    bottom: 20px; /* posiciona a linha no final do container */
+    right: 45px; /* alinha a linha à esquerda do container */
+    width: 1000%; /* define a largura da linha como 100% do container */
+    height: 1px; /* define a altura da linha como 1 pixel */
+    background-color: #fff; /* define a cor da linha como branco */
+}
+
+.arrow__single i{
+
+    font-size: 45px;
+    color: white;
+
+}
+/******************************************************************/
+
+/* Descrição */
+
+/* section.descricao__ebook{
+    padding: 30px 0;
+    text-align: center;
+}
+
+section.descricao__ebook > .container{
+    max-width: 1280px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 50px 0;
+}
+
+section.descricao__ebook h2{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+section.descricao__ebook p{
+    max-width: 680px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    display: inline-block;
+} */
+
+section.descricao__ebook{
+    padding: 30px 0;
+}
+
+section.descricao__ebook > .container{
+    max-width: 1100px;
+}
+
+.descricao__title__ebook{
+    text-align: center;
+}
+
+.descricao__title__ebook h3{
+    color: #31475e;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 50px 0;
+}
+
+.descricao__flex__ebook{
+    display: flex;
+    flex-wrap: wrap;
+
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.descricao__space__ebook{
+    display: flex;
+    padding: 30px;
+    width: 33.3%;
+}
+
+.descricao__space__ebook:hover{
+    transition: 1s;
+    cursor: pointer;
+    transform:scale(1.1,1.1);
+}
+
+.descricao__box__ebook{
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+    background: white;
+    height: 100%;
+}
+
+.descricao__box__ebook img{
+    width: 100%;
+}
+
+.descricao__wraper__ebook{
+    padding: 20px;
+}
+
+.descricao__wraper__ebook h2{
+    color: #31475e;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.descricao__wraper__ebook p{
+    margin: 8px 0;
+    line-height: 1.6;
+    color: #6a7c92;
+    font-weight: lighter;
+    font-size: 15px;
+}
+/******************************************************************/
+
+/* icones das Linguagens */
+section.descricao__img{
+    padding: 30px 0;
+}
+
+section.descricao__img > .container{
+    max-width: 1100px;
+}
+
+.descricao__title h2{
+    color: #31475e;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.descricao__img__wraper {
+    width: 100%;
+    text-align: center;
+
+
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.descricao__img__single {
+    margin: 50px 0;
+    display: inline-block;
+
+    padding: 20px 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+
+.descricao__img__single img{
+    width: 60px; /* largura fixa da imagem */
+    margin: 0 50px; /* espaçamento entre as imagens */
+    float: left;
+}
+
+.descricao__img__single img:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+/******************************************************************/
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(26 24 33); 
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+  
+.back-to-top:hover {
+    background-color: rgb(39, 36, 49);
+    color: #fff;
+}
+
+/* footer */
+footer {
+    background-color: rgb(39, 36, 49);
+    padding: 20px 0;
+    font-size: 14px;
+    color: #999;
+}
+
+footer > .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+footer a {
+    color: #999;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+/******************************************************************/
+
+/* tooltip's */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/******************************************************************/
+
+/* media */
+@media screen and (max-width: 768px) {
+    nav.menu__desktop{
+        display: none;
+    }
+    nav.menu__mobile{
+        display: block;
+    }
+    .bg__newsletter{
+        padding: 28px;
+        text-align: center;
+        display: block;
+    }
+    .bg__newsletter p{
+        display: inline-block;
+    }
+    .bg__newsletter input[type=email]{
+        margin-bottom: 10px;
+    }
+    .arrow__line, .arrow__line2{
+        display: none;
+    }
+    .descricao__space__ebook{
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+    }
+    .descricao__space__ebook:hover{
+        transition: none;
+        transform: none;
+    }
+    .descricao__box__ebook{
+        margin: 0 auto;
+        max-width: 400px;
+        width: 100%;
+    }
+    .descricao__space__ebook:hover{
+        transition: none;
+        transform: none;
+    }
+    .descricao__img__wraper{
+        width: 100%;
+        max-width: 640px;
+        border: 1px solid #ececec;
+    }
+    .descricao__img__single{
+        margin: 5px 5px;
+    }
+    .descricao__img__single img:hover{
+        transition: none;
+        transform: none;
+    }
+    .back-to-top{
+        width: 40px;
+        height: 40px;
+    }
+}
