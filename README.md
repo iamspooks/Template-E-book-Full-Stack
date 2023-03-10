@@ -6,9 +6,11 @@ Estrutura deste template foi feita pensando tanto em 🖥desktop e 📱mobile, e
 
    Foi utilizado neste template as seguintes linguagens:
 
+<div align="center">
    <img height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
    <img height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-   <img height="40" width="60" src="[https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg)" />
+   <img height="40" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />
+</div>
 
 Imagens do template 👇🏻
   
